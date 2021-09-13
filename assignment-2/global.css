@@ -1,0 +1,38 @@
+:root{
+    --init-padding : 0.2rem;
+}
+
+*{
+    text-align: center;
+    font-weight: bold;
+}
+
+header{
+    background-color: blueviolet;
+    padding: var(--init-padding);
+}
+
+nav{
+    background-color: red;
+}
+
+.sidebar{
+    background-color: greenyellow;
+}
+
+main{
+    background-color: blue;
+}
+
+.ads{
+    background-color: teal;
+}
+
+footer{
+    background-color: palevioletred;
+}
+
+nav, .sidebar, main, .ads, footer{
+    padding: var(--init-padding);
+    margin-top:0.4rem
+}

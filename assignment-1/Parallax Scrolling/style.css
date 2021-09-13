@@ -1,0 +1,30 @@
+*{   margin: 0; }
+
+p{
+    font-size: 10rem;
+    font-weight: bolder;
+    background-color: rgba(0, 128, 0, 0.506);
+    padding: 4rem;
+    text-align: center;
+    border-radius: 40px;
+    
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40rem;
+    background-color: black;
+}
+
+div:nth-child(odd) {
+    background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+div:nth-child(even){
+    color: rgb(168, 152, 152);
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    font-family: 'Noto Serif', serif;
+}
+.container{
+    margin: 10% 18%;
+    padding: 2rem;
+    font-family: 'Noto Serif', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+thead tr{
+    background-color: #009879;
+    color:  white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+table th,table td{
+    padding: 12px 15px;
+}
+
+tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+.inputs__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    grid-column-gap: 2rem;
+    margin-top: 2rem;
+    grid-template-areas: 
+        "firstName lastName "
+        "address phone"
+        "button button"
+    ;
+}
+#firstName{
+    grid-area: firstName ;
+}
+#lastName{
+    grid-area: lastName;
+}
+#address{
+    grid-area: address;
+}
+#phone{
+    grid-area: phone;
+}
+
+.submit__button{
+    font-size: 1rem;
+    grid-area: button;
+    background-color: #009879;
+    color: #dddddd;
+}
+.inputs__container input{
+    font-size: 1rem;
+}

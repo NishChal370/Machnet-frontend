@@ -1,0 +1,195 @@
+:root{
+    --outer-padding: 1rem 2rem 1rem 2rem;
+    --back-color: #e5e5e5;
+    --highlight--color: #f12c0f;
+    --description-style: italic;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text--center{
+    text-align: center;
+}
+
+.extra--padding{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+ /* header having nav start ->> */
+header{
+   display: grid; 
+   grid-template-columns: 1fr 1fr;
+   justify-content: space-between;
+   padding: var( --outer-padding );
+}
+
+
+.logo__img{
+    width: 3.4rem; 
+}
+
+nav{
+    justify-self: end;
+    align-self: center;
+}
+
+.nav__button{
+    width: 1.4rem;
+}
+
+.nav__button hr{
+    height: 0.2rem;
+    margin: 4px 0px 4px 0px;
+    border: none;
+    background-color: black;
+}
+
+.nav__links{
+    display: none;
+}
+/*<<-  header having nav end  */
+
+ /* main body start ->> */
+main{
+    background-color: var( --back-color );
+    padding: var( --outer-padding );
+    
+}
+
+.head__title{
+    color: var( --highlight--color );
+}
+.head__info{
+    font-style: var( --description-style );
+}
+
+.card{
+    background-color: white;
+    padding: 2rem 1em 2rem 1rem;
+    margin-top: 1rem;
+}
+
+.food__img{
+    object-fit: cover;
+    width: 100%;
+    height: 146px;
+}
+
+.card__info *{
+    padding-top: 0.8rem;
+}
+.card__info p{ 
+    font-style: var( --description-style );
+}
+
+.food__price{
+    font-size: 1.02rem ;
+    padding-bottom: 1.8rem;
+    color: var( --highlight--color );
+}
+
+.card__button{
+    text-decoration: none;
+    background-color: var( --back-color );
+    color: black;
+    padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+}
+
+.card__button:hover{
+    background-color: #c0bdbd;
+}
+
+.main__end-text span{
+    color: var( --highlight--color );
+}
+/* <<- main body end  */
+
+/* footer start ->> */
+footer{
+    text-align: center;
+    background-color: #333333;
+    color: white;
+    padding: var( --outer-padding );
+    
+}
+
+.footer__span{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.footer__span a{
+    color: var( --highlight--color );
+}
+/*<<- footer end  */
+
+
+@media (min-width: 768px){
+    .head__info{
+        font-size: 1.2rem;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .food__img{
+        height: 190px;
+    }
+    .head__title{
+        font-size: 3rem;
+    }
+    .card__info h3{
+        font-size: 2rem;
+    }
+    .logo__img{
+        width: 4rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .menu{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .logo__img{
+        width: 5rem;
+    }
+    .head__info{
+        padding: 1rem 200px 1rem 200px;
+    }
+
+    .nav__links a{
+        color: black;
+        text-decoration: none;
+        font-size: 1.2rem;
+    }
+
+    .nav__links a:hover{
+        color:  var( --highlight--color );
+    }
+    .nav__links{
+        display: unset;
+        display: flex; 
+        gap: 2rem;     
+    }
+    
+    .nav__button{
+        display: none;
+    }
+    .food__img{
+        height: 210px;
+    }
+    .food__price{
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    font-family: 'Mukta', sans-serif;
+}
+/* nav start */
+nav{
+    background-color:rgba(244, 246, 246, 0.63);
+    display: flex;
+    gap: 34rem;
+    width: 100%;
+    font-size: 1.6rem;
+    position: fixed;
+}
+
+nav div:nth-child(1){
+    margin-left: 2rem;
+}
+
+nav div:nth-child(2){
+    display: flex;
+    gap: 2rem;
+    margin-top: 0.8rem;
+}
+
+nav img{
+    width: 100px;
+    height: 60px;
+    top: 0;
+    object-position: top;
+    object-fit: cover;
+}
+nav p{
+    padding: 0.2rem;
+    border-radius: 12px 12px 0px 0px;
+}
+nav p:hover{
+    color: white;
+    background-color: orangered;    
+}
+/* nav end */
+
+/* mid-div section started */
+.top-div{
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: blanchedalmond;
+    height: 30rem;
+  
+}
+
+.page-title{
+    padding: 4rem 0rem 0rem 4rem;
+    font-size: 2rem;
+    color: white;
+}
+.page-title h1{
+    padding: 0%;
+}
+.page-title p{
+    font-size: 1.6rem;
+    width: 45rem;
+}
+
+button{
+    font-size: 1.6rem;
+    color: white;
+    background-color: orangered;
+    border:none;
+    border-radius: 10px;
+    
+}
+button:hover{
+    color: orangered;
+    background-color: white;
+    padding-right: 4rem;
+}
+
+
+.mid-div{
+    display: flex;
+    gap: 3rem;
+    margin: 1rem 0rem 0rem 20rem;
+}
+
+.mid-div article{
+    width: 50rem;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.mid-div img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 15px 15px 2px orangered;
+
+}
+
+article .mid-div-title, .bottom-div-title{
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+article .mid-div-title span{
+    color: orangered;
+}
+
+.mid-div-subtitle{
+    font-weight: bold;
+}
+/* mid-div section end */
+
+
+/* bottom-div section started */
+.bottom-div{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.bottom-div div{
+    margin: 1rem 15rem 0rem 15rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+
+.bottom-div img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.bottom-div img:hover{
+    box-shadow: 2px 2px 24px orangered;
+}
+
+
+/* footer start */
+footer{
+    margin-top: 2rem;
+    padding: 1rem 6rem 1rem 16rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: black;
+    color: white;
+    gap:4rem;
+}
+
+footer .title{
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,61 @@
+.main-wrapper .ads, .nav-main-wrapper nav{
+    display: none;
+}
+
+.main-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.nav-main-wrapper{
+    width: 100%;
+}
+
+main{
+    height: 20rem;
+}
+
+@media(min-width:321px){
+    .main-wrapper{
+        height: 70%;
+    }
+    main{
+        height: 100%;
+    }
+
+    .nav-main-wrapper, .head-nav-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .main-wrapper, .ads-footer-wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .sidebar, .ads{
+        width: 20%;
+    }
+
+    footer{
+        width: 100%;
+
+    }
+    
+}
+
+@media(min-width:1024px){
+
+    .main-wrapper{
+        height: 80%;
+    }
+    .main-wrapper .ads, .nav-main-wrapper nav{
+        display: unset;
+    }
+
+    .ads-footer-wrapper .ads, .head-nav-wrapper nav{
+        display: none;
+    }
+}

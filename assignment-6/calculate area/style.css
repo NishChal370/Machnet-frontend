@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+*{
+    font-family: 'Noto Serif', serif;
+}
+.container{
+    margin: 10% 18%;
+    padding: 2rem;
+    font-family: 'Noto Serif', serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 1fr;
+    grid-template-rows: auto;
+    grid-row-gap: 5px;
+    margin-top: 2rem;
+    grid-template-areas: 
+        "title title title"
+        "height sign breadth "
+        "button  button button"
+        "answer answer answer"
+    ;
+}
+h1{
+    grid-area: title;
+}
+
+#height{
+    grid-area: height ;
+}
+#sign{
+    grid-area: sign;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2rem;
+    justify-self: center;
+}
+
+#breadth{
+    grid-area: breadth;
+}
+
+.answer{
+    grid-area: answer;
+}
+
+.submit__button{
+    font-size: 1.6rem;
+    grid-area: button;
+    background-color: #009879;
+    color: #dddddd;
+}
+
+.container input{
+    font-size: 1rem;
+}

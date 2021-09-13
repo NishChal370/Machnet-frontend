@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+}
+
+.title{
+    padding-left: 40%;
+    font-size: 3rem;
+    text-shadow: 4px 4px 1px plum;
+}
+
+.container{
+    margin: 2rem 4rem 4rem 4rem;
+    position: relative;
+}
+
+figure{
+    width: 100%;
+    height: 80%;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlapping__container{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0.05%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    font-size: 4rem; 
+    padding: 0rem 1rem 0rem 1rem;
+    color: black;
+}
+
+.hover--button:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.image__index{
+    padding:1rem 2rem 0rem 0rem;
+    align-self:flex-end;
+}
+
+
+.bottom__radiobutton{
+    display: flex;
+    gap: 0.5rem;
+    align-self: center;
+    padding-bottom: 1rem;
+}

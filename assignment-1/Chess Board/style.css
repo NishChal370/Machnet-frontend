@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+}
+
+h1{
+    margin-top: 1rem;
+    font: bold;
+    font-size: 2rem;
+}
+table{
+    background-color: white;
+    box-shadow: 1px 2px 2px 5px rgba(105, 105, 105, 0.2);
+    border-collapse: collapse; 
+    width: 60%;
+    height: 60%;
+    margin: 4rem 0rem 0rem 16rem;
+}
+
+.black{
+    background-color: black ;
+}

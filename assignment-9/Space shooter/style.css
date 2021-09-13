@@ -1,0 +1,42 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-size: 2rem;
+    background-size:cover;
+    transition: 0.1s linear;
+    background-image: url('./images/bg2.png');
+}
+canvas{
+    position: relative;
+}
+
+.notice__board{
+    top: 16%;
+    left: 32%;
+    position: absolute;
+    text-align: center;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color: rgba(1, 1, 29, 0.52);
+}
+.score__board{
+    width: 92%;
+    display: flex;
+    position: absolute;
+    padding-left: 2rem;
+    justify-content: space-between;
+}
+
+.paused__notice{
+    display: none;
+    padding-left: 2rem;
+    margin-left: 20rem;
+}
+
+button{
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    background-color: rgba(1, 1, 29, 0.52);
+}
