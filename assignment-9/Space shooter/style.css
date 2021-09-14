@@ -4,7 +4,6 @@ body{
     color: white;
     font-size: 2rem;
     background-size:cover;
-    transition: 0.1s linear;
     background-image: url('./images/bg2.png');
 }
 canvas{

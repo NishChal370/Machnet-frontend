@@ -182,7 +182,6 @@ function generateNewEnemy(){
 
 function drawEnemy(){
     enemys.forEach((enemy)=>{
-        context.beginPath();
         enemy.image.src = enemyImage;
         context.drawImage(
             enemy.image,
@@ -191,8 +190,6 @@ function drawEnemy(){
             enemy.radius*2,
             enemy.radius*2
         );
-        context.closePath();
-        context.stroke();
     });
 
     moveEnemy(); 
@@ -259,6 +256,7 @@ function reset(){
     noticeBoard.style.display ='unset';
     pausedNotice.style.display = 'none';
     startingNotice.style.display ='unset';
+
     requestAnimationFrame(main);
 }
 
@@ -266,6 +264,7 @@ function startGame(){
     gameStart = true;
     playerInitialImage = playerImage;
     noticeBoard.style.display ='none';
+
     requestAnimationFrame(main);
 }
 
@@ -274,6 +273,7 @@ function pauseGame(){
     noticeBoard.style.display ='unset';
     pausedNotice.style.display = 'unset';
     startingNotice.style.display ='none';
+    
     cancelAnimationFrame(cancleAnimination);
 }
 

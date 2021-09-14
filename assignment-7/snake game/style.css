@@ -25,6 +25,11 @@ body{
     font-size: 2rem;
 }
 
+.status{
+    margin-left: -6rem;
+    color: white;
+}
+
 .button__container{
     width: 10%;
     align-self: center;
@@ -34,8 +39,4 @@ body{
     text-align: center;
 }
 
-.status{
-    margin-left: -6rem;
-    color: white;
-}
 

@@ -1,7 +1,7 @@
 const container = document.querySelector('.container');
+const noticeStatus = document.querySelector('.status');
 const startButton = document.querySelector('.start__button');
 const stopButton = document.querySelector('.stop__button');
-const noticeStatus = document.querySelector('.status');
 const scoreBoard = document.querySelector('.score__board');
 
 let gameOverAudio = new Audio('gameover.mp3');
