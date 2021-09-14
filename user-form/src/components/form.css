@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.user__form{
+    width: 46%;
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.user__name{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+
+input{
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-bottom: 0.4rem;
+    background-color:unset;
+    font-family: 'Nunito', sans-serif;
+}
+
+.button__container{
+    gap: 1rem;
+    display: flex;
+    padding-top: 1rem;
+    flex-direction: column;
+}
+
+button{
+    width: 30.5rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgba(255, 255, 255, 0.589);
+}

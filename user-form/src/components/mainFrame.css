@@ -1,0 +1,20 @@
+.main__Frame{
+    margin: 10%;
+    padding: 1rem;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.424);
+    
+}
+
+aside{
+    width: 50%;
+    margin-top: 10rem;
+}
+figure{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+}
