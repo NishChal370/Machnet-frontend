@@ -32,10 +32,11 @@ function UserForm() {
         e.preventDefault();
         let isEmpty = checkEmpty();
         if(!isEmpty){
-            if(data.password.length>8){
+            if(data.password.length>=8){
                 alert("submitted");
             }
             else{
+                alert("pasword length should be greater then 8");
                 setColor("password", 'red');
             }
         } 
