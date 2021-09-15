@@ -39,20 +39,29 @@ function UserForm() {
     const validate=()=>{
         const passwordRegex = "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$";
         const phoneRegex = "[0-9]{10}";
-        if((data.password).match(passwordRegex)){
-            if((data.phone).match(phoneRegex)){
-                alert("form submitted");
-            } 
+        const alphRegex = "^[a-zA-Z]+$";
+        if((data.firstName ).match(alphRegex) && (data.lastName).match(alphRegex)){
+            if((data.password).match(passwordRegex)){
+                if((data.phone).match(phoneRegex)){
+                    alert("form submitted");
+                } 
+                else{
+                    alert("Phone number should be of 10 digit.");
+                    setColor("phone", 'green');
+                }  
+                
+            }
             else{
-                alert("Phone number should be of 10 digit.");
-                setColor("phone", 'green');
-            }  
-            
+                alert("Please make your password strong.");
+                setColor("password", 'green');
+            }
         }
         else{
-            alert("Please make your password strong.");
-            setColor("password", 'green');
+            alert("first name and last name should be only alphabet.");
+            setColor("firstName", 'green');
+            setColor("lastName", 'green');
         }
+        
     }
 
     const checkEmpty=()=>{
