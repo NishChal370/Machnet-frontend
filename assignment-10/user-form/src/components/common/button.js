@@ -3,7 +3,7 @@ import '../form.css'
 
 let buttons =[
     {name:'Submit', type: 'submit'},
-    {name:'Cancel', type: ''}
+    {name:'Cancel', type: 'button'}
 ];
 
 function Button() {

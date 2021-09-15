@@ -32,14 +32,27 @@ function UserForm() {
         e.preventDefault();
         let isEmpty = checkEmpty();
         if(!isEmpty){
-            if(data.password.length>=8){
-                alert("submitted");
-            }
-            else{
-                alert("pasword length should be greater then 8");
-                setColor("password", 'red');
-            }
+            validate();
         } 
+    }
+
+    const validate=()=>{
+        const passwordRegex = "^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$";
+        const phoneRegex = "[0-9]{10}";
+        if((data.password).match(passwordRegex)){
+            if((data.phone).match(phoneRegex)){
+                alert("form submitted");
+            } 
+            else{
+                alert("Phone number should be of 10 digit.");
+                setColor("phone", 'green');
+            }  
+            
+        }
+        else{
+            alert("Please make your password strong.");
+            setColor("password", 'green');
+        }
     }
 
     const checkEmpty=()=>{
