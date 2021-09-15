@@ -1,0 +1,38 @@
+
+.produce__card{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 1rem;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+figure{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.card__info__section{
+    height: 10rem;
+    position: relative;
+}
+
+
+.product__cateogary{
+    margin: 0px;
+    padding-top: 2rem;
+    font-size: 1.6rem;
+}
+
+.product__price{
+    bottom: 18.6rem;
+    font-size: 1.6rem;
+    position: absolute;
+    background-color: red;
+    padding: 0px 4px 0px 4px;
+}

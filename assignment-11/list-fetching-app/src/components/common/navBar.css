@@ -1,0 +1,35 @@
+.products__nav{
+    gap: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav__title{
+    color: red;
+    margin-bottom: 0px;
+}
+
+.products__nav ul{
+    gap: 2rem;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.products__nav li{
+    cursor: pointer;
+}
+
+input{
+    width: 10rem;
+}
+
+.search__container{
+    align-self: center;
+    padding-right: 2rem;
+}
+
+.container__header{
+    margin-bottom: 1rem;
+    background-color: wheat;
+}

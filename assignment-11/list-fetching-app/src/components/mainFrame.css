@@ -1,0 +1,19 @@
+.main__container{
+    margin: 0px;
+    height: 140vh;
+    padding: 1rem 12rem 2rem 12rem;
+    background-color: rgb(238, 153, 153);
+}
+
+.products__container{
+    gap: 2rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.loader{
+    margin-top: 10rem ;
+    margin-left: 26rem ;
+}
