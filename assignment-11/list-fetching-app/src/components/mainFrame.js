@@ -11,7 +11,7 @@ function MainFrame() {
     const [inputvalue, setInputValue] = useState('');
     const [selectCategory, setSelectCategory ]= useState('men\'s clothing');
 
-    // for changing project by clicking nav bar
+    // for changing products by clicking nav bar
     const changeCateogaryHandler=(value)=>{
         setSelectCategory(value);
     }
