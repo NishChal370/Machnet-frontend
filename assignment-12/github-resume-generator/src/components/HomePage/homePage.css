@@ -1,0 +1,53 @@
+:root{
+    --border-radius: 6px;
+    --font-color: white;
+}
+
+.home__container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    color: var(--font-color);
+}
+
+section:nth-child(1){
+    text-align: center;
+}
+
+.home__title{
+    font-size: 2.2rem;
+    margin-bottom: 0px;
+}
+
+section:nth-child(1) p{
+    margin-top: 0px;
+    font-size: 0.9rem;
+}
+
+.input__section{
+    gap: 0.6rem;
+    display: flex;
+    justify-content: center; 
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+}
+aside input{
+    width: 12rem;
+    font-size: 1rem;
+    border: 2px solid;
+    border-radius: var(--border-radius);
+}
+
+.generate__button{
+    width: 8rem;
+    font-size: 1rem;
+    align-self:flex-end;
+    color: var(--font-color);
+    background-color: orangered;
+    border-radius: var(--border-radius);
+}
