@@ -26,7 +26,6 @@ function NavBar() {
         <>
             <div className="nav__container">
                 <p onClick={goHomeHandler} className='logo'>MOVIE APP</p>
-
                 <nav>
                     <ul className="nav__list">
                         <li><button className='nav__button extra--padding' onClick={goHomeHandler}>Home</button></li>

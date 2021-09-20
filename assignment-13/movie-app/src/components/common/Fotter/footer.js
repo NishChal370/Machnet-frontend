@@ -4,7 +4,7 @@ function Footer() {
     
     return (
         <div className='footer__container'>
-            <p className='footer__title'>Movie App</p>
+            <p className='footer__title'>MOVIE APP</p>
             <p>Watch Your Favourate Movie Online</p>
             <p className='copyright'>Copyright © Movies App All Rights Reserved</p>
             <p>A website stores no files on its server. All the links are provided by the third parties; and the rights belong to their respected owners as stated in DMCA.</p>

@@ -26,9 +26,9 @@ function MovieDetail() {
                                 <h1 className='selected-movie__title'>{selectedMovieDetail.title_english}</h1>
                                 <p>Rating: {selectedMovieDetail.rating}</p> 
                                 <p>Likes: {selectedMovieDetail.like_count}</p>
-                                <p className='genre__list'>Genres :
-                                    {selectedMovieDetail.genres.map((genre,index)=>{return <span key={'genre'+index}>{genre}</span>})}
-                                </p>
+                                <div className='genre__list'>Genres :
+                                    {selectedMovieDetail.genres.map((genre,index)=>{return <p key={'genre'+index}>{genre}</p>})}
+                                </div>
                                 <p>{selectedMovieDetail.description_full}</p>                           
                             </span>
                         </article>

@@ -11,6 +11,7 @@ import { FcRating } from 'react-icons/fc';
 
 function Card({data}) {
     let {id, large_cover_image, medium_cover_image, rating,title_english, year} = data;
+    
     const [added, setAdded] = useState();
     const [watchListStore, setwatchListStore] = useState([]);
     const [watchedMovieList, setWatchedMovieList] =  useState([]);
