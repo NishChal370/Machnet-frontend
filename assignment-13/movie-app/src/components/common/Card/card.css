@@ -1,0 +1,42 @@
+.card__figure{
+    width: 100%;
+}
+
+.rating{
+    display: flex;
+    gap: 0.2rem;
+}
+
+.card__figure img{
+    width: 100%;
+    height: 20rem;
+}
+
+.card__container{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card__container:hover{
+    cursor: pointer;
+    box-shadow: rgba(235, 181, 4, 0.178) 0px 10px 55px, rgba(235, 181, 4, 0.178)  0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-movie__title{
+    font-weight: bold;
+    color: #04AA6D;
+}
+
+.watchlist__icons{
+    font-size: 2.6rem;
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    color: rgb(51, 46, 70);
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 0rem;
+}
+
+.watchlist__icons:hover{
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 0rem;
+}

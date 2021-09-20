@@ -1,0 +1,25 @@
+.footer__container{
+    text-align: center;
+    padding: 2rem 4rem;
+    background-color: rgba(5, 5, 6, 0.808);
+}
+
+.footer__title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.copyright{
+    font-size: 1rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+
+.footer__container p:nth-child(4){
+    padding-top: 0.2rem;
+    color: rgba(185, 183, 183, 0.849);
+}
+
+.about__app{
+    padding: 1rem 0rem;
+}
