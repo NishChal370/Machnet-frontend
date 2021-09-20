@@ -2,21 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##`Output ScreenShot`
+###`Output ScreenShot`
 
-##HomePage
+###HomePage
 ![HomePage](https://user-images.githubusercontent.com/73095396/133998228-541a3c14-3d16-41a6-a223-be8120e97940.png)
 
-##Home Page Crime Section
+###Home Page Crime Section
 ![HomePage CrimeSection](https://user-images.githubusercontent.com/73095396/133998246-4f86183f-ecf6-4904-9011-49d519af8fd5.PNG)
 
-##Genre Page
+###Genre Page
 ![GenreListPage](https://user-images.githubusercontent.com/73095396/133998255-e6505ab9-22a6-4c66-ab44-1bfc40aa2a1b.png)
 
-##Movie Detail Page
+###Movie Detail Page
 ![MovieDetailPage](https://user-images.githubusercontent.com/73095396/133998283-b5327df6-042b-4696-91a7-54fbb8070b0e.png)
 
-##WatchList Page
+###WatchList Page
 ![WatchListPage](https://user-images.githubusercontent.com/73095396/133998295-5c824234-efc0-4810-9652-33a43cdbab56.png)
 
 
