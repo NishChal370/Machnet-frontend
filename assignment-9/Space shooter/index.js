@@ -34,7 +34,7 @@ const audio={
 let enemys = [];
 let bullets = [];
 let player = {
-    speed: 20,
+    speed: 30,
     radius: 40 ,
     x: canvasWidth/2, 
     y: canvasHeight, 
@@ -63,13 +63,13 @@ function main(){
     drawBullet();
 
     if(difficultLevel === 'beginner'){
-        enemyGenerateOn = 80;
+        enemyGenerateOn = 200;
     }
     else if(difficultLevel === 'intermediate'){
-        enemyGenerateOn = 60;
+        enemyGenerateOn = 150;
     }
     else if(difficultLevel === 'difficult'){
-        enemyGenerateOn = 40;
+        enemyGenerateOn = 80;
     }
     if(counter > Math.floor( Math.random() * 100 ) + enemyGenerateOn){   
         generateNewEnemy();
@@ -172,7 +172,7 @@ function generateNewEnemy(){
     let newEnemy = {
         x: Math.floor( Math.random() * (canvasWidth-40) ) + 40,
         y: 30,
-        speed: 3,
+        speed: 1.2,
         radius: 40,
         image: new Image(),
     }
@@ -236,7 +236,7 @@ function reset(){
     setHighestScore();
 
     player = {
-        speed: 20,
+        speed: 30,
         radius: 40 ,
         x: canvasWidth/2, 
         y: canvasHeight, 

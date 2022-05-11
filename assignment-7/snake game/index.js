@@ -24,7 +24,7 @@ function main(){
     runTime ++;
     foodTime ++;
 
-    if(runTime >= 12){
+    if(runTime >= 20){
         moveSnake(snakeDirection);
         runTime  = 0;
     };
@@ -127,7 +127,7 @@ function borderCollide(){
         startGame = false;
         gameOverAudio.play();
         noticeStatus.style.display='unset';
-        container.style.background='black';
+        container.style.background='rgba(0, 0, 0, 0.527)';
         noticeStatus.innerHTML="Game Ended";
 
         return true;
@@ -161,7 +161,7 @@ function reset(){
     snakeTailPosition = {x:"", y: ""}
     noticeStatus.innerHTML="";
     noticeStatus.style.color ='white';
-    container.style.background='white';
+    container.style.background='rgba(255, 255, 255, 0)';
     foodPosition ={
         x: Math.floor(Math.random() * 14)+4 ,
         y: Math.floor(Math.random() * 14)+4 
